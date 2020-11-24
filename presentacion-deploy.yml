@@ -20,6 +20,11 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
+- script: |
+    npm install react-router-dom
+    npm run build
+  displayName: 'router install'
+
   
 - task: PublishBuildArtifacts@1
   inputs:
