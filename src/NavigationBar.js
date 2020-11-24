@@ -6,9 +6,8 @@ const Styles = styled.div`
   .navbar { background-color: #222; }
   a, .navbar-nav, .navbar-light .nav-link {
     color: #9FFFCB;
-    height: 60px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 1rem;
+    position: fixed;
     &:hover { color: white; }
   }
   .navbar-brand {

@@ -17,16 +17,6 @@
   white-space: pre-line;
 }
 
-.navbar { 
-  background-color: #222; 
-  color: #9FFFCB;
-  font-size: 1.4em;
-  top: 0;
-  width: 100%;
-  position: fixed; 
-  padding: 10px 0;
-}
-
 .form-center {
   position: absolute !important;
   left: 25%;
