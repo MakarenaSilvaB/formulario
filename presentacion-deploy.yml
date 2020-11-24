@@ -21,9 +21,6 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- script: |
-    npm install semantic-ui
-  displayName: 'npm install semantic-ui'  
   
 - task: PublishBuildArtifacts@1
   inputs:
