@@ -6,7 +6,9 @@ const Styles = styled.div`
   .navbar { background-color: #222; }
   a, .navbar-nav, .navbar-light .nav-link {
     color: #9FFFCB;
-    width: 100vh;
+    height: 60px;
+    margin-left: 0;
+    margin-right: 0;
     &:hover { color: white; }
   }
   .navbar-brand {
@@ -22,8 +24,8 @@ const Styles = styled.div`
   }
 
   .photo {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
   }
 `;
 export const NavigationBar = () => (
