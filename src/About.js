@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import about from './about.png';
-import 'semantic-ui-css/semantic.min.css'
 
 export const About = () => (
   <div className="App">
