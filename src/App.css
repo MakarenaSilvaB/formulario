@@ -51,7 +51,7 @@
 }
 
 .field{
-  width: 400px;
+  width: 600px;
   border-radius: 5px;
 }
 
@@ -80,7 +80,7 @@
   color: #29282c;
   text-align: center;
   vertical-align: middle;
-  background-color: #61dafb;
+  background-color: #9FFFCB;
   border: 1px solid transparent;
   padding: 5px;
   font-size: 1rem;
