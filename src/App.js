@@ -14,21 +14,23 @@ function App() {
   return (
     <div> 
       <header>
-        <div className="App">
-        <NavigationBar />
-          <React.Fragment>
-            <Router>
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/validador" component={Validador} />
-                <Route path="/validador" component={Formulario} />
-                <Route component={NoMatch} />
-              </Switch>
-            </Router>
-          </React.Fragment> 
-          <Footer/>
-        </div>
+          <div className="App">
+            <NavigationBar />
+            <div className="container">        
+              <React.Fragment>
+                <Router>
+                  <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/about" component={About} />
+                    <Route path="/validador" component={Validador} />
+                    <Route path="/formulario" component={Formulario} />
+                    <Route component={NoMatch} />
+                  </Switch>
+                </Router>
+              </React.Fragment>
+              </div> 
+              <Footer/>
+          </div>
       </header>
     </div>
   );

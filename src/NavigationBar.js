@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 import PoliCorp from './Polilogo.png';
 const Styles = styled.div`
-  .navbar { background-color: #222; }
+  .navbar { background-color: #222; position: fixed; width: 60vh; border-radius: 7px;}
   a, .navbar-nav, .navbar-light .nav-link {
     color: #9FFFCB;
     &:hover { color: white; }

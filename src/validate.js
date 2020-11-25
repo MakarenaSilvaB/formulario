@@ -6,7 +6,7 @@ import imagen from './index.png';
 
 function validate() {
   return (
-    <div className="App">Validat-E™ V2.0
+    <div className="App">
       <header className="App-header">
         <img src={imagen} alt="pic"/>
         <p>Ingrese su rut</p>
