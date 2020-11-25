@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 import PoliCorp from './Polilogo.png';
 const Styles = styled.div`
-  .navbar { background-color: #222; position: fixed; width: 60vh; border-radius: 7px;}
+  .navbar { background-color: #222; position: fixed; width: 80vh; border-radius: 7px;}
   a, .navbar-nav, .navbar-light .nav-link {
     color: #9FFFCB;
     &:hover { color: white; }
@@ -36,6 +36,7 @@ export const NavigationBar = () => (
             <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/validador">Validador</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/formulario">Formulario</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="/afiliados">Afiliados</Nav.Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
