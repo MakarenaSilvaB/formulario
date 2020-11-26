@@ -77,11 +77,11 @@
 .btm {
   display: inline-block;
   font-weight: 400;
-  color: #9FFFCB;
+  color: #29282c;
   text-align: center;
   vertical-align: middle;
-  background-color: #29282c;
-  border: 2px solid #9FFFCB;
+  background-color: #9FFFCB;
+  border: 2px solid #29282c;
   padding: 5px;
   font-size: 1rem;
   line-height: 1.5;
@@ -92,7 +92,7 @@
 }
 
 .btn:hover {
-  background-color:#9FFFCB; 
+  background-color:#6de6a3; 
   color: #29282c;
 }
 
