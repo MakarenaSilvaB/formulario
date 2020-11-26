@@ -4,6 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import afiliados from './afiliados.png';
 import belmingo from './pancho.png';
 import monteblack from './monteblack.png';
+import curso from './curso.png';
 
 export const Afiliados = () => (
   <div className="App">
@@ -16,6 +17,9 @@ export const Afiliados = () => (
         </div>
         <div new-line>
             <a href="https://pag-web.rodrigo-montenegro.me/"> <img src={monteblack} alt="pic" /></a> 
+        </div>
+        <div new-line>
+            <a href="https://uv.trifenix.io/"> <img src={curso} alt="pic" /></a> 
         </div>
       </div>
     </div>
