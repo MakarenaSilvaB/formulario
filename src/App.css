@@ -51,7 +51,6 @@
 }
 
 .field{
-  width: 600px;
   border-radius: 5px;
 }
 
@@ -60,6 +59,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.home:hover {
+  background-color:#6de6a3; 
 }
 
 .App-header {
@@ -74,7 +77,7 @@
   color: rgba(231, 231, 231, 0.959);
 }
 
-.btm {
+.btn {
   display: inline-block;
   font-weight: 400;
   color: #29282c;
