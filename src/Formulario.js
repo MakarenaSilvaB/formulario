@@ -5,7 +5,7 @@ import muro from './muro.png';
 
 export const Formulario = () => (
   <div className="App">
-    <div className="new-line"><img src={muro} alt="pic" /></div>
+    <div className="new-line"><img src={muro} alt="pic" className="line-jump"/></div>
     <h1>Registro de Visitas</h1>
     <p>Ejemplo de Formulario con Semantic UI</p>
     <div className="centering">

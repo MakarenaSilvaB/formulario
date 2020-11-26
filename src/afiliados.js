@@ -8,7 +8,7 @@ import curso from './curso.png';
 
 export const Afiliados = () => (
   <div className="App">
-    <div className="new-line"><img src={afiliados} alt="pic" /></div>
+    <div className="new-line"><img src={afiliados} alt="pic" className="line-jump"/></div>
     <h1>Sitios afiliados con éste. ¡Visítalos!</h1>
     <div className="container">
       <div className="centering">

@@ -5,7 +5,7 @@ import about from './about.png';
 
 export const About = () => (
   <div className="App">
-    <div className="new-line"><img src={about} alt="pic" /></div>
+    <div className="new-line"><img src={about} alt="pic" className="line-jump"/></div>
     <h1>Sobre este Sitio</h1>
     <div className="container">
       <p>Este sitio ha sido creado con el propósito de reunir todos los trabajos realizados para los cursos de Desarrollo Web y Arquitectura de Software, a modo de demo. Este es publicado por azure, desde el repositorio en github programado en React. Si bien, al principio me ha costado agarrar el hilo de los cursos, puedo decir que el llevar a cabo la creación de este sitio demo ha resultado una tarea sumamente divertida, además de interesante. Siempre es bonito conocer algo más alla de html, php y sus frameworks. Espero disfrutes el recorrido por este sitio, tanto como yo disfruté el crearlo, seguro será mucho más efímero que la creación en sí, pero con que hayas llegado hasta este mensaje, ¡hace que valga la pena!</p>
