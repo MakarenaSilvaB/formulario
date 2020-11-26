@@ -52,6 +52,7 @@
 
 .field{
   border-radius: 5px;
+  width:600px;
 }
 
 
@@ -63,6 +64,7 @@
 
 .home:hover {
   background-color:#6de6a3; 
+  border-radius: 100px;
 }
 
 .App-header {

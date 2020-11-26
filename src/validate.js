@@ -10,7 +10,7 @@ function validate() {
       <header className="App-header">
         <img src={imagen} alt="pic"/>
         <p>Ingrese su rut</p>
-        <MiValidador  className="field" placeholder="00000000-0" />
+        <MiValidador placeholder="00000000-0" />
       </header>
     </div>
   );
