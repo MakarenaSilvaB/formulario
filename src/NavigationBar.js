@@ -1,9 +1,9 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
-import PoliCorp from './Polilogo.png';
+import PoliCorp from './images/Polilogo.png';
 const Styles = styled.div`
-  .navbar { background-color: #222; position: fixed; width: 60vh; border-radius: 7px;}
+  .navbar { opacity: 0.8; background-color: #222; position: fixed; width: 100%}
   a, .navbar-nav, .navbar-light .nav-link {
     color: #9FFFCB;
     &:hover { color: white; }
@@ -28,7 +28,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/"><img src={PoliCorp} alt="pic" className="photo"/></Navbar.Brand>
+      <Navbar.Brand href="/"><img src={PoliCorp} alt="pic" className="photo home"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
@@ -36,6 +36,7 @@ export const NavigationBar = () => (
             <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/validador">Validador</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/formulario">Formulario</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="/afiliados">Afiliados</Nav.Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

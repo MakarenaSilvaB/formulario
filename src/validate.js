@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MiValidador from './MiValidador';
-import imagen from './index.png';
+import imagen from './images/index.png';
 
 
 function validate() {
@@ -10,7 +10,7 @@ function validate() {
       <header className="App-header">
         <img src={imagen} alt="pic"/>
         <p>Ingrese su rut</p>
-        <MiValidador  placeholder="00000000-0" />
+        <MiValidador placeholder="00000000-0" />
       </header>
     </div>
   );
