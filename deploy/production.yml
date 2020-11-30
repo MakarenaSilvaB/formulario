@@ -32,7 +32,7 @@ steps:
   - task: Npm@1      
     inputs:
       command: "custom"
-      customCommand: "--no-git-tag-version version $(MajorMinorPatch)"
+      customCommand: "--allow-same-version --no-git-tag-version version $(MajorMinorPatch)"
     displayName: "actualizando package.json"
 
  
