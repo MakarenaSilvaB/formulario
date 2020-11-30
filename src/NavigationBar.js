@@ -1,9 +1,9 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
-import PoliCorp from './Polilogo.png';
+import PoliCorp from './images/Polilogo.png';
 const Styles = styled.div`
-  .navbar { opacity: 0.8; background-color: #222; position: fixed; width: 80vh; border-radius: 7px;}
+  .navbar { opacity: 0.8; background-color: #222; position: fixed; width: 100%}
   a, .navbar-nav, .navbar-light .nav-link {
     color: #9FFFCB;
     &:hover { color: white; }

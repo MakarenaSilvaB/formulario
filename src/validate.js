@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MiValidador from './MiValidador';
-import imagen from './index.png';
+import imagen from './images/index.png';
 
 
 function validate() {

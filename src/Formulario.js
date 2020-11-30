@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import muro from './muro.png';
+import muro from './images/muro.png';
 
 export const Formulario = () => (
   <div className="App">

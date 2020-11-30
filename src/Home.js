@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import home from './home.png';
+import home from './images/home.png';
 
 export const Home = (props) => (
   <div className="App">

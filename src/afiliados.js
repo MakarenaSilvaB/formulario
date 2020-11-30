@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import afiliados from './afiliados.png';
-import belmingo from './pancho.png';
-import monteblack from './monteblack.png';
-import curso from './curso.png';
+import afiliados from './images/afiliados.png';
+import belmingo from './images/pancho.png';
+import monteblack from './images/monteblack.png';
+import curso from './images/curso.png';
 
 export const Afiliados = () => (
   <div className="App">
