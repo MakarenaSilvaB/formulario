@@ -36,6 +36,7 @@ export const NavigationBar = () => (
             <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/validador">Validador</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/formulario">Formulario</Nav.Link></Nav.Item>
+            <Nav.Item><Nav.Link href="/gitflow">GitFlow Demo</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/afiliados">Afiliados</Nav.Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>

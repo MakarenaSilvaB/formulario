@@ -9,6 +9,7 @@ import { About } from './About';
 import { NoMatch } from './NoMatch';
 import { Formulario } from './Formulario';
 import { Afiliados } from './afiliados';
+import { Flow } from './Flow';
 import Validador from './validate';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/about" component={About} />
                     <Route path="/validador" component={Validador} />
                     <Route path="/formulario" component={Formulario} />
+                    <Route path="/gitflow" component={Flow} />
                     <Route path="/afiliados" component={Afiliados} />
                     <Route component={NoMatch} />
                   </Switch>
